@@ -1,0 +1,13 @@
+.statistics {
+    display: flex;
+    gap: 1rem;
+}
+
+.main-statistics {
+    flex: 5;
+    margin-top: 1rem;
+}
+
+.analysis {
+    margin-top: 3rem;
+}

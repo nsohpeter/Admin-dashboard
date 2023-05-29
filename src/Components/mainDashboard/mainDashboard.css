@@ -1,0 +1,7 @@
+.mainDashboard {
+    display: flex;
+    flex: 4.5;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: space-evenly;
+}

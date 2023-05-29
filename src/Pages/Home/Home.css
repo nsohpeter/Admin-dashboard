@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+}
+
+.home-container {
+    flex: 5;
+    margin-top: 4rem;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+}

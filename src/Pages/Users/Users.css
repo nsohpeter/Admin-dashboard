@@ -1,0 +1,13 @@
+.users {
+    display: flex;
+    gap: 1rem;
+}
+
+.users-container {
+    flex: 5;
+    margin-top: 2rem;
+}
+
+.list {
+    margin-top: 2rem;
+}

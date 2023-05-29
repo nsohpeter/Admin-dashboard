@@ -1,0 +1,11 @@
+.login {
+    display: flex;
+    gap: 1rem;
+}
+
+.login-container {
+    flex: 5;
+    margin-top: 2rem;
+}
+
+.list {}

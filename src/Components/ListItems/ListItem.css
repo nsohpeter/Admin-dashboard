@@ -1,0 +1,36 @@
+:root {
+    --activeItem: #f799a354;
+    --pink: #FF919D;
+}
+
+.listItem {
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0.5rem;
+    margin-left: 1rem;
+    padding: 0.6rem;
+    gap: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.listItem>a {
+    text-decoration: none;
+    color: #242d49;
+}
+
+.active {
+    background: var(--activeItem);
+    margin-left: 0;
+}
+
+.active::before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    background: blue;
+    margin-right: calc(1rem - 8px);
+    /* background: var(--pink); */
+}
